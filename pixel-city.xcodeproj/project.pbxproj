@@ -13,6 +13,9 @@
 		1C22A734205AF11400CA2553 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C22A733205AF11400CA2553 /* Assets.xcassets */; };
 		1C22A737205AF11400CA2553 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C22A735205AF11400CA2553 /* LaunchScreen.storyboard */; };
 		1C22A743206025A000CA2553 /* DroppablePin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C22A742206025A000CA2553 /* DroppablePin.swift */; };
+		1C22A7472060492700CA2553 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C22A7462060492700CA2553 /* PhotoCell.swift */; };
+		1C22A7492060522800CA2553 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C22A7482060522800CA2553 /* Constants.swift */; };
+		1C22A74B2076A3EE00CA2553 /* PopVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C22A74A2076A3EE00CA2553 /* PopVC.swift */; };
 		AA38680FD4EC5A839E47F686 /* Pods_pixel_city.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53DA6B511F1D2FA46469D5E9 /* Pods_pixel_city.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +28,9 @@
 		1C22A736205AF11400CA2553 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C22A738205AF11400CA2553 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C22A742206025A000CA2553 /* DroppablePin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroppablePin.swift; sourceTree = "<group>"; };
+		1C22A7462060492700CA2553 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		1C22A7482060522800CA2553 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1C22A74A2076A3EE00CA2553 /* PopVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopVC.swift; sourceTree = "<group>"; };
 		53DA6B511F1D2FA46469D5E9 /* Pods_pixel_city.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pixel_city.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		85558E0C1B970974498A15AE /* Pods-pixel-city.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pixel-city.release.xcconfig"; path = "Pods/Target Support Files/Pods-pixel-city/Pods-pixel-city.release.xcconfig"; sourceTree = "<group>"; };
 		B1FC84CF14E41B21522D4E89 /* Pods-pixel-city.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pixel-city.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pixel-city/Pods-pixel-city.debug.xcconfig"; sourceTree = "<group>"; };
@@ -80,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				1C22A72E205AF11400CA2553 /* MapVC.swift */,
+				1C22A74A2076A3EE00CA2553 /* PopVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -88,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				1C22A742206025A000CA2553 /* DroppablePin.swift */,
+				1C22A7462060492700CA2553 /* PhotoCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -102,6 +110,7 @@
 		1C22A741205AF1BB00CA2553 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				1C22A7482060522800CA2553 /* Constants.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -254,6 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C22A74B2076A3EE00CA2553 /* PopVC.swift in Sources */,
+				1C22A7492060522800CA2553 /* Constants.swift in Sources */,
+				1C22A7472060492700CA2553 /* PhotoCell.swift in Sources */,
 				1C22A72F205AF11400CA2553 /* MapVC.swift in Sources */,
 				1C22A743206025A000CA2553 /* DroppablePin.swift in Sources */,
 				1C22A72D205AF11400CA2553 /* AppDelegate.swift in Sources */,
